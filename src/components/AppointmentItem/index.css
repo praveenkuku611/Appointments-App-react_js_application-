@@ -1,0 +1,31 @@
+.appointment-item {
+  display: flex;
+  flex-direction: column;
+  height: 80px;
+  width: 250px;
+  padding: 10px;
+  border: 1px solid #b5b7c4;
+  border-radius: 10px;
+  justify-content: space-evenly;
+  margin-right: 15px;
+  margin-top: 15px;
+}
+.heading-section {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+.star-img {
+  height: 20px;
+  width: 20px;
+}
+.date-string {
+  font-size: 12px;
+}
+.star-button {
+  border: transparent;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
